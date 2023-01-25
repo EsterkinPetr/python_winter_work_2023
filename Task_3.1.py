@@ -6,7 +6,6 @@ while True:
         itogo += zp
         n += 1
     else:
-        n +=1
         break
 print(itogo / n)
 
