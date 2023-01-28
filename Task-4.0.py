@@ -4,7 +4,7 @@ slz = {}
 for i in s:
     if i not in sls:
         sls[i] = 0
-    sls[i
+    sls[i] += 1
 for j in z:
     if j not in slz:
         slz [j] = 0
