@@ -13,6 +13,10 @@ ws2.cell(row=1, column=1).value = 'Фамилия'
 ws2.cell(row=1, column=2).value = 'Итог'
 for k, v in sotrsum.items():
     ws2.append([k, v])
+itogo = 0
+for i in range(2, ws2.max_row + 1):
+    itogo += int(ws2.cell(row=i, column=2).value)
+ws2.append(['ИТОГО', str(itogo)])
 print(sotrsum)
 wb.save('Task_10-1.xlsx')
 
