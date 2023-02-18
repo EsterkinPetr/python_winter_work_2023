@@ -1,7 +1,4 @@
 import openpyxl
-#from openpyxl import Workbook
-#wb = Workbook()
-
 wb = openpyxl.load_workbook('Task_10-2.xlsx')
 ws1 = wb['Период_1']
 ws2 = wb['Период_2']
