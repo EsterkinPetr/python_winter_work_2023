@@ -10,7 +10,7 @@ for r in range(1, ws1.max_row + 1):
     fs1[f1] = fs1.get(f1, 0) + ws1.cell(row=r, column=2).value
 for r in range(1, ws2.max_row + 1):
     f2 = ws2.cell(row=r, column=1).value
-    fs2[f2] = fs1.get(f2, 0) + ws2.cell(row=r, column=2).value
+    fs2[f2] = fs2.get(f2, 0) + ws2.cell(row=r, column=2).value
 #print(fs1, fs2)
 fsi = {}
 fsi.update(fs2)
