@@ -15,12 +15,14 @@ class Gener:
 
     def __next__(self):
         y = self.s[self.x - len(self.s) + 1]
-        self.x += 1
+        if self.x <= 50:
+            self.x += 1
+        else:
+            self.x = -1
         return y
 
-
 a = Gener()
-for i in range(104):
+for i in range(106):
     print(next(a), end=',')
 
 
