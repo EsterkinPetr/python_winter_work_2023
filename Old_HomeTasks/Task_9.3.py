@@ -1,6 +1,6 @@
 #import collections
 sl = {}
-with open('Task_9.txt', 'r', encoding= 'utf-8') as tekst:
+with open('Task_9.txt', 'r', encoding='utf-8') as tekst:
     a = tekst.read().lower()
     #sl = dict(collections.Counter(a))
     for i in a:

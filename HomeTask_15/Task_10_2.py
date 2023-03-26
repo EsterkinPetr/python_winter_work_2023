@@ -1,5 +1,5 @@
 import openpyxl
-wb = openpyxl.load_workbook('../Task_10-2.xlsx')
+wb = openpyxl.load_workbook('../Old_HomeTasks/Task_10-2.xlsx')
 ws1 = wb['Период_1']
 ws2 = wb['Период_2']
 ws3 = wb['Итоги']
